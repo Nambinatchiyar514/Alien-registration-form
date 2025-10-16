@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alien Registration Form</title>
+  <!-- Link to Alien CSS -->
+  <link rel="stylesheet" href="Alien.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Alien Registration Form 👽</h1>
+    <form id="alienForm" novalidate>
+      <!-- Planet Name -->
+      <label for="planet" class="lab">Planet Name:</label>
+      <input type="text" id="planet" placeholder="Planet Name" required>
+
+      <!-- Antenna Count -->
+      <label for="antenna"class="lab">Antenna Count:</label>
+      <input type="number" id="antenna" placeholder="Even number only" required>
+
+      <!-- Alien ID -->
+      <label for="alienID"class="lab">Alien ID:</label>
+      <input type="text" id="alienID" placeholder="ZOR-XY_9999@UFO" required>
+
+      <!-- Favorite Human Phrase -->
+      <label for="phrase"class="lab">Favorite Human Phrase:</label>
+      <input type="text" id="phrase" placeholder="Include emoji or punctuation" required>
+
+      <!-- Landing Date -->
+      <label for="landingDate"class="lab">Landing Date:</label>
+      <input type="date" id="landingDate" required>
+
+      <!-- Alien Image -->
+      <label for="alienImage"class="lab">Upload Alien Image:</label>
+      <input type="file" id="alienImage" accept="image/png, image/jpeg" required>
+      <img id="preview" src="#" alt="Image Preview" style="display:none; width:150px; margin-top:10px;">
+
+      <button type="submit">Register Alien 🚀</button>
+    </form>
+  </div>
+
+  <!-- Link to JS -->
+  <script src="alien.js"></script>
+</body>
+</html>

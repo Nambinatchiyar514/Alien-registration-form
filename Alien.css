@@ -1,0 +1,69 @@
+body {
+  font-family: 'Arial', sans-serif;
+  /* Gradient + image combine pannurathu */
+  background-image: url(/home/tvl-010-test/Desktop/java/images/Alien.image/alien.png);
+    
+    
+    
+  background-size: cover; /* Image screen cover pannum */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.lab
+{
+  color:#34e6f3;
+    font-weight: bold; 
+
+}
+
+
+.container {
+  background-color: transparent(207, 7, 107, 0.7);
+  padding: 30px;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0 0 20px #3098a0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+form button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color:transparent;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background-color: #919b98;
+  border: 2px solid black;
+} 
+form button 
+{
+   border: 2px solid black;
+}
