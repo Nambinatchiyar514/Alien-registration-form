@@ -40,6 +40,7 @@ document.getElementById('alienImage').addEventListener('change', function(event)
     }
 });
 
+
 // Form Submit
 document.getElementById("alienForm").addEventListener("submit", function(e) {
     e.preventDefault();
