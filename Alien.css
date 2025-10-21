@@ -17,6 +17,11 @@ body {
     font-weight: bold; 
 
 }
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  display: none; /* Hidden by default */
+}
 
 
 .container {
@@ -60,10 +65,11 @@ form button {
 }
 
 form button:hover {
-  background-color: #919b98;
+   background-color: #10d4d4;
   border: 2px solid black;
 } 
 form button 
 {
    border: 2px solid black;
+  
 }
